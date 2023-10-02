@@ -31,6 +31,7 @@ const HomePage: React.FC = () => {
     return (
       <div className="homepage-container">
           <h1>Welcome!</h1>
+          <h2>select an artist below to browse inspo for outfits</h2>
           <div className="artist-icons">
               {artists.map((artist) => (
                   <div key={artist._id} className="artist-item">
