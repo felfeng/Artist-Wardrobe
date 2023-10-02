@@ -1,0 +1,52 @@
+body {
+    padding-top: 50px;
+}
+
+.artist-outfit-page {
+    background-color: #616a9e;
+    min-height: 100vh;
+}
+
+.outfits-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Calistoga', sans-serif;
+    color: white;
+  }
+  
+  .outfit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+  .outfit-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .outfit-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+.outfit-image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.outfit-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+  
