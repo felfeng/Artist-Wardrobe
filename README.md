@@ -6,7 +6,7 @@ Artist Wardrobe is a web application that recommends pieces of clothing based on
 - Curated Catalogs: View catalogs of clothing items, including earrings, dresses, and more, linked to their respective online stores.
 
 ## Tech Stack  
-- Frontend: React
+- Frontend: React, Typescript
 - Backend: Node.js, Express.js
 - Database: MongoDB
 
